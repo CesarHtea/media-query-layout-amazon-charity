@@ -1,8 +1,5 @@
 # Media Query Basics - Amazon Charity Trust
 
-## Context
-
-
 ## Description
 
 Amazon Charitable Trust responsive site.
