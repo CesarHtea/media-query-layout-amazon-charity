@@ -1,0 +1,68 @@
+$width-tablet: 500px;
+$width-desktop: 800px;
+$profile-border-color: rgba(222,222,222,1);
+* { 
+  box-sizing: border-box;
+  font-family: Arial;
+}
+.logo__imagen {
+  width: 300px;
+}
+.profiles__image {
+  width: 100%;
+}
+.principal {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+}
+.encabezado {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.slogan-logo {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+      
+    @media screen and (min-width: $width-tablet) {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+ }
+.intro {
+  margin-top: 120px;
+    @media screen and (min-width: $width-tablet) {
+      margin-top: 110px;
+    }
+}
+.h1 {
+  font-family: Courier;
+}
+.slogan {
+    @media screen and (min-width: $width-tablet) {
+      align-self: flex-end;
+    }
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.profiles {
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: $width-tablet) {
+    flex-direction: row;
+    flex-wrap: wrap;    
+   }  
+    &__card {
+      max-width: 300px;
+      border: 1px solid $profile-border-color;
+      box-shadow: 1px 1px 1px $profile-border-color;
+      padding: 10px;
+      margin: 20px;
+     }
+}

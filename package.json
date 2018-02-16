@@ -1,0 +1,16 @@
+{
+  "name": "media-query-layout-amazon-charity",
+  "version": "1.0.0",
+  "description": "## Context",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "node-sass styles.scss ./css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
